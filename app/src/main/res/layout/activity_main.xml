@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthtriplogin"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="254dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/healthtrip_black" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Permission Request"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="94dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Places Project needs permission to access device location and Internet Connection to provide required service. Please allow the permission."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_marginTop="60dp"
+            android:id="@+id/btn_grant"
+            android:layout_width="335dp"
+            android:layout_height="71dp"
+            android:layout_marginBottom="194dp"
+            android:background="@drawable/grantpermission"
+            android:fontFamily="sans-serif-medium"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/quantum_black_100" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

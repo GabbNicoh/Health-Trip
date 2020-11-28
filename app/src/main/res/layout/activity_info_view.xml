@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthtriplogin">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/Placetitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/placephoto"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="10dp"/>
+
+
+        <ImageView
+            android:id="@+id/placephoto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/call"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:background="@drawable/circle_background"
+            android:layout_marginLeft="300dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/placephoto"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/Placerating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:drawableLeft="@drawable/ic_star_black_24dp"
+            android:padding="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/Placerating"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/Placeadress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:padding="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/Placeadress"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/Placehours"
+            android:letterSpacing="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:padding="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/Placehours"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/Placecontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:padding="10dp"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_above="@id/Placecontact"
+            android:background="@android:color/darker_gray"
+            android:layout_margin="0dp"/>
+
+        <TextView
+            android:id="@+id/Placewebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_language_black_24dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

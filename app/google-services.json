@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "308963052105",
+    "firebase_url": "https://maps-nearby-places-api.firebaseio.com",
+    "project_id": "maps-nearby-places-api",
+    "storage_bucket": "maps-nearby-places-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308963052105:android:858e60edc04e4db42c0d98",
+        "android_client_info": {
+          "package_name": "com.pakage.googlemapsnearbyplacesapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308963052105-dht39dc13ljni5j4gdslrq4pmhv2q6k2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pakage.googlemapsnearbyplacesapi",
+            "certificate_hash": "f7cf59c9c45fb9e61de570ff0503accf59f89a9e"
+          }
+        },
+        {
+          "client_id": "308963052105-hu36k6d68q872391cdm9smrvsoduk70m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfx0CD6UDJaW30O8qZopKz5oI4_-90WHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308963052105-hu36k6d68q872391cdm9smrvsoduk70m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

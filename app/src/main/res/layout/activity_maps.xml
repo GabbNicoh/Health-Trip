@@ -1,0 +1,198 @@
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment android:id="@+id/map"
+
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+
+
+        tools:context="com.androidtutorialpoint.googlemapsretrofit.MapsActivity"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/tv_lat"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/tv_lng"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/place_info"/>
+
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer"
+        android:content="@+id/content"
+        android:handle="@id/handler"
+        android:rotation="360"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="360"
+            android:id="@+id/handler"
+            android:text="Find Services"
+            android:textColor="@color/quantum_black_text"
+            android:textSize="20sp"
+            android:background="#ff7271"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:rotation="360"
+            android:background="#957efe"
+            android:id="@+id/content">
+
+            <!-- Dito ilalagay ung content -->
+
+            <ImageButton
+
+                android:id="@+id/btnHospital"
+
+                android:layout_width="148dp"
+
+                android:layout_height="160dp"
+
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentTop="true"
+
+
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="130dp"
+
+                android:padding="1dp"
+
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/hospitalbt" />
+
+            <ImageButton
+
+                android:id="@+id/btnPharmacy"
+
+                android:layout_width="147dp"
+
+                android:layout_height="157dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginTop="130dp"
+
+                android:layout_marginRight="20dp"
+
+                android:padding="1dp"
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/pharmacybt" />
+
+            <ImageButton
+
+                android:id="@+id/btnDentist"
+
+                android:layout_width="146dp"
+
+                android:layout_height="152dp"
+
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="158dp"
+
+
+                android:padding="1dp"
+
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/dentalbt" />
+
+            <ImageButton
+
+                android:id="@+id/btnPhysio"
+
+                android:layout_width="146dp"
+
+                android:layout_height="152dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginRight="20dp"
+
+                android:layout_marginBottom="158dp"
+
+
+                android:padding="1dp"
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/healthcenterbt" />
+
+        </RelativeLayout>
+
+
+
+    </SlidingDrawer>
+
+
+
+
+
+
+
+</FrameLayout>
